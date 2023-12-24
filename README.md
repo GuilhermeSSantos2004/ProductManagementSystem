@@ -1,45 +1,48 @@
-# Product Management System
+# Sistema de Gerenciamento de Compras Domésticas
 
-## Overview
-This project is a simple Product Management System implemented in Python using SQLite for data storage. It allows users to perform basic operations such as adding, updating, deleting products, and viewing products that need to be bought.
+## História
+Em um mundo onde a organização e o controle são essenciais até mesmo nas tarefas diárias de compras, nasce o Sistema de Gerenciamento de Compras Domésticas. Desenvolvido em Python e alimentado pelo poder do SQLite, este sistema é a resposta para a busca de uma vida mais organizada e eficiente.
 
-## Features
-1. **Add Product (Option 1):**
-   - Users can add a new product to the system by providing details such as barcode, product name, price, amount, and alert level.
+## Funcionalidades Principais
+### Adicionar Produto (Opção 1)
+- Adicione facilmente novos produtos ao seu estoque doméstico. Basta inserir o código de barras, o nome do produto, o preço, a quantidade desejada e o nível de alerta para uma gestão completa.
 
-2. **Update Product (Option 2):**
-   - Users can update the details of an existing product by specifying the barcode. They can change the product name, price, amount, and alert level.
+### Atualizar Produto (Opção 2)
+- Mantenha-se atualizado! Se os detalhes de um produto mudarem, atualize as informações especificando o código de barras. Você pode modificar o nome, preço, quantidade e nível de alerta conforme necessário.
 
-3. **Show Products to Buy (Option 3):**
-   - Displays a list of products that need to be bought, i.e., products with the alert level set to 2. Provides information such as product name, barcode, current amount, and price.
+### Visualizar Produtos para Comprar (Opção 3)
+- O sistema destaca os produtos que estão na lista de compras. A qualquer momento, visualize a lista de produtos que precisam ser adquiridos, incluindo detalhes como nome, código de barras, quantidade atual e preço.
 
-4. **Delete Product (Option 4):**
-   - Allows users to delete a product from the system by entering the product's barcode.
+### Excluir Produto (Opção 4)
+- Simplifique seu estoque. Remova produtos do sistema inserindo o código de barras. Uma maneira rápida e fácil de manter seu inventário organizado.
 
-5. **Exit (Option 5):**
-   - Exits the application.
+### Sair (Opção 5)
+- Encerre a sessão no aplicativo quando concluído. Simples assim.
 
-## Implementation Details
-- The system uses SQLite as the database to store product information.
-- Functions are defined to handle various operations such as adding, updating, deleting, and querying products from the database.
-- Input validation is implemented to ensure data integrity and user-friendly interactions.
+## Detalhes Técnicos
+- Utiliza a robusta tecnologia SQLite para armazenar e gerenciar informações sobre os produtos.
+- Funções bem definidas cuidam das operações fundamentais, garantindo uma experiência fluida e eficaz.
+- A validação rigorosa de entrada foi implementada para garantir a integridade dos dados e uma interação amigável com o usuário.
 
-## How to Run
-1. Ensure you have the required Python environment.
-2. Run the script (`API.py`) in a Python environment.
-3. Follow the on-screen instructions to perform various actions.
+## Como Executar
+1. Certifique-se de ter o ambiente Python configurado em seu sistema.
+2. Execute o script (`API.py`) em um ambiente Python.
+3. Siga as instruções na tela para realizar diversas ações relacionadas às suas compras domésticas.
 
-## Dependencies
+## Dependências
 - Python
 - SQLite3
 
-## Usage
-- This system can be used by small businesses or individuals to manage their product inventory.
-- It provides a simple and intuitive command-line interface for users to interact with the system.
+## Uso
+- Ideal para famílias ou indivíduos que buscam uma gestão eficiente do estoque doméstico.
+- A interface de linha de comando proporciona uma interação simples e intuitiva.
 
-## Future Enhancements
-- Implement user authentication for secure access to the system.
-- Add data validation for user inputs.
-- Implement a graphical user interface (GUI) for a more user-friendly experience.
+## Aprimoramentos Futuros
+- Implementação de autenticação de usuário para acesso seguro ao sistema.
+- Adição de validação aprimorada para garantir a integridade dos dados inseridos.
+- Desenvolvimento de uma interface gráfica do usuário (GUI) para uma experiência ainda mais amigável e visual.
 
-- LINK video: https://youtu.be/kyG6DXTWHuE
+Sinta-se à vontade para personalizar o conteúdo com base nos detalhes específicos do seu projeto e para destacar quaisquer características adicionais que considerar relevantes.
+
+**Viva uma vida organizada, simplificada e eficiente com o Sistema de Gerenciamento de Compras Domésticas!**
+
