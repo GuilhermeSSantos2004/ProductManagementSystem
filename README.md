@@ -41,3 +41,5 @@ This project is a simple Product Management System implemented in Python using S
 - Implement user authentication for secure access to the system.
 - Add data validation for user inputs.
 - Implement a graphical user interface (GUI) for a more user-friendly experience.
+
+- LINK video: https://youtu.be/kyG6DXTWHuE
